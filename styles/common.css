@@ -1,0 +1,118 @@
+
+#element::-webkit-scrollbar
+{ 
+    display: none; 
+}
+
+::-webkit-scrollbar
+{ 
+    display: none; 
+}
+
+
+@media screen and (min-width: 1280px)
+{
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-family: Verdana, Arial;
+		color: #EDEDED;
+		background-color: #1E1E1E;
+	}
+
+	*
+	{
+		cursor: default;
+		line-height: 30px;
+		-ms-user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+	}
+
+/**
+ * Common definition of site URI.
+ */
+	A
+	{
+		font-family: Arial;
+		font-weight: bold;
+		vertical-align: center;
+		font-size: 110%;
+		text-decoration: none;
+		color: #0098EF;
+		margin: 5px;
+	}
+
+	A:hover
+	{
+		color: #5DA6FF;
+	}
+
+/**
+ * A Material-Design style big button.
+ */
+	.big_btn
+	{
+		transition: 0.2s;
+		padding: 20px;
+		font-size: 20px;
+		font-weight: Arial;
+		width: 190px;
+		background-color: #444;
+		border-radius: 3px;
+		border: 0px none;
+		text-align: center;
+		font-weight: bold;
+		color: #EDEDED;
+		vertical-align: middle;
+		box-shadow: 0px 3px 10px rgba(15, 15, 15, 0.4);
+	}
+
+	.big_btn:hover
+	{
+		text-shadow: 0px 1px 2px rgba(15, 15, 15, 0.4);
+		box-shadow: 0px 6px 15px rgba(15, 15, 15, 0.7);
+		transition: 0.2s;
+		background-color: #777;
+		color: #FFF;
+	}
+
+	.big_btn:active
+	{
+		transition: 0.2s;
+		background-color: #222;
+		color: #CCC;
+	}
+
+	.big_btn:focus
+	{
+		outline: 0;
+	}
+
+/**
+ * The common definition of site content area.
+ */
+	.content_area
+	{
+		margin: 0px;
+		padding: 0px;
+		width: 100vw;
+		background: #444;
+		text-shadow: none;
+	}
+
+	.content_area > *
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.content
+	{
+		margin: 0px;
+		padding: 90px;
+		padding-left: 220px;
+		padding-right: 220px;
+	}
+}

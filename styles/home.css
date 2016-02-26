@@ -1,0 +1,92 @@
+@media screen and (min-width: 1280px)
+{
+
+	body
+	{
+		text-shadow: 0px 0px 4px #333;
+	}
+
+	header
+	{
+		height: 100vh;
+		background: url("../assets/site/background.jpg");
+		background-size: 100vw;
+	}
+
+	nav
+	{
+		padding-top: 65px;
+		height: 180px;
+	}
+
+	nav > div
+	{
+		float: right;
+		padding: 50px;
+		padding-top: 40px;
+		padding-right: 150px;
+	}
+
+	#nav_items > A
+	{
+		font-size: 140%;
+		color: #FFFFFF;
+		padding: 20px;
+	}
+
+	#nav_items > A:hover
+	{
+		transition: 0.1s;
+		border-bottom: solid 4px #00FFF0;
+	}
+
+	#info
+	{
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	#info > *
+	{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 40px;
+	}
+
+	#info > #text > h1
+	{
+		font-family: Arial;
+		font-size: 250%;
+	}
+
+	#info > #text > p
+	{
+		font-size: 110%;
+	}
+
+	#knowmore
+	{
+		width: 190px;
+		height: 70px;
+		background-color: #00D0E0;
+		color: #EDEDED;
+	}
+
+	#knowmore:hover
+	{
+		background-color: #55FFF5;
+		color: #FFF;
+	}
+
+	#knowmore:active
+	{
+		background-color: #007770;
+		color: #CCC;
+	}
+
+	#knowmore:focus
+	{
+		outline: 0;
+	}
+
+}
