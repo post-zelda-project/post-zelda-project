@@ -1,5 +1,3 @@
-@media screen and (min-width: 1280px)
-{
 
 	body
 	{
@@ -8,22 +6,28 @@
 
 	header
 	{
-		height: 100vh;
+		width: 100vw;
+		min-height: 1000px;
+		height: 56vw;
 		background: url("../assets/site/background.jpg");
 		background-size: 100vw;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 
+@media screen and (min-width: 1080px)
+{
 	nav
 	{
-		padding-top: 65px;
-		height: 180px;
+		padding-top: 2.5vw;
+		height: 25vh;
 	}
 
 	nav > div
 	{
 		float: right;
-		padding: 50px;
-		padding-top: 40px;
+		padding-top: 3vw;
 		padding-right: 150px;
 	}
 
@@ -31,7 +35,7 @@
 	{
 		font-size: 140%;
 		color: #FFFFFF;
-		padding: 20px;
+		padding: 1vw;
 	}
 
 	#nav_items > A:hover
@@ -39,6 +43,8 @@
 		transition: 0.1s;
 		border-bottom: solid 4px #00FFF0;
 	}
+}
+
 
 	#info
 	{
@@ -50,18 +56,27 @@
 	{
 		display: inline-block;
 		vertical-align: middle;
-		padding: 40px;
+		padding: 2vw;
 	}
 
 	#info > #text > h1
 	{
 		font-family: Arial;
+		font-weight: lighter;
+		letter-spacing: 2px;
 		font-size: 250%;
 	}
 
 	#info > #text > p
 	{
 		font-size: 110%;
+		letter-spacing: 1px;
+	}
+
+	#logo
+	{
+		width: 25vw;
+		min-width: 300px;
 	}
 
 	#knowmore
@@ -89,4 +104,77 @@
 		outline: 0;
 	}
 
+footer
+{
+	padding: 3vw;
+	padding-bottom: 0px;
+	text-align: center;
+	background: #181C20;
 }
+
+#copyright
+{
+	text-align: left;
+	font-size: 10px;
+	color: #8E8E8E;
+	color: #676767;
+}
+
+#links
+{
+	text-align: right;
+	padding-top: 1.3vw;
+	padding-bottom: 0.3vw;
+}
+
+#links > A
+{
+	letter-spacing: 1px;
+	transition: 0.2s;
+	color: #7C9FBA;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+#links > A:hover
+{
+	transition: 0.2s;
+	color: #00FFF6;
+}
+
+@media screen and (max-width: 1080px)
+{
+	nav
+	{
+		padding-top: 2.5vw;
+		height: 25vh;
+		text-align: center;
+	}
+
+	nav > div
+	{
+		margin: auto;
+		padding-top: 3vw;
+		padding-left: auto;
+		padding-right: auto;
+	}
+
+	#nav_items > A
+	{
+		font-size: 140%;
+		color: #FFFFFF;
+		padding: 1vw;
+	}
+
+	#nav_items > A:hover
+	{
+		transition: 0.1s;
+		border-bottom: solid 4px #00FFF0;
+	}
+
+	#info
+	{
+		display: block;
+	}
+}
+
