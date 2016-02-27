@@ -65,6 +65,7 @@
 		font-weight: lighter;
 		letter-spacing: 2px;
 		font-size: 250%;
+		line-height: 50px;
 	}
 
 	#info > #text > p
@@ -75,8 +76,13 @@
 
 	#logo
 	{
-		width: 25vw;
+		width: 30vw;
 		min-width: 300px;
+		filter: drop-shadow(0px 4px 10px #111);
+		-webkit-filter: drop-shadow(0px 4px 10px #111);
+		-moz-filter: drop-shadow(0px 4px 10px #111);
+		-ms-filter: drop-shadow(0px 4px 10px #111);
+		-o-filter: drop-shadow(0px 4px 10px #111);
 	}
 
 	#knowmore
@@ -104,6 +110,11 @@
 		outline: 0;
 	}
 
+	#social > div
+	{
+		display: inline-block;
+	}
+
 footer
 {
 	padding: 3vw;
@@ -114,21 +125,23 @@ footer
 
 #copyright
 {
-	text-align: left;
+	text-align: center;
 	font-size: 10px;
-	color: #8E8E8E;
 	color: #676767;
 }
 
 #links
 {
-	text-align: right;
+	font-family: monospace;
+	font-weight: lighter;
+	color: #798389;
+	text-align: center;
 	padding-top: 1.3vw;
-	padding-bottom: 0.3vw;
 }
 
 #links > A
 {
+	font-family: Verdana;
 	letter-spacing: 1px;
 	transition: 0.2s;
 	color: #7C9FBA;
@@ -178,3 +191,43 @@ footer
 	}
 }
 
+#best
+{
+	font-family: monospace;
+	float: left;
+	font-size: 90%;
+	color:#DADBDB;
+}
+
+.social_icon
+{
+	transition: 0.5s;
+	width: 48px;
+	padding: 4px;
+	color: #FFF;
+	-webkit-filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
+	-moz-filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
+	-ms-filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
+	-o-filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
+	filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
+}
+
+.social_icon:hover
+{
+	transition: 0.5s;
+	-webkit-filter: brightness(1) invert(0) opacity(100%) grayscale(0%);
+	-moz-filter: brightness(1) invert(0) opacity(100%) grayscale(0%);
+	-ms-filter: brightness(1) invert(0) opacity(100%) grayscale(0%);
+	-o-filter: brightness(1) invert(0) opacity(100%) grayscale(0%);
+	filter: brightness(1) invert(0) opacity(100%) grayscale(0%);
+}
+
+.social_icon:active
+{
+	transition: 0.5s;
+	-webkit-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+	-moz-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+	-ms-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+	-o-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+	filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+}
