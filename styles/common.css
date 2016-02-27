@@ -113,19 +113,27 @@ body
 	.content
 	{
 		margin: 0px;
-		padding: 5vw;
+		padding: 3vw;
+		padding-bottom: 5vw;
 		padding-left: 12vw;
 		padding-right: 12vw;
+	}
+
+	.content > p
+	{
+		line-height: 32px;
 	}
 
 	.content > h1
 	{
 		font-family: Helvetica;
-		font-size: 38px;
-		line-height: 40px;
+		font-size: 45px;
+		line-height: 55px;
 		text-transform: uppercase;
 		letter-spacing: 0.4rem;
-		font-weight: lighter;
+		font-weight: 100;
 		text-align: center;
-		padding-bottom: 8vh;
+		padding-bottom: 6vh;
+		margin-bottom: 8vh;
+		border-bottom: 1px solid #00DDFF;
 	}

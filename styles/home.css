@@ -7,7 +7,7 @@
 	header
 	{
 		width: 100vw;
-		min-height: 1000px;
+		min-height: 900px;
 		height: 56vw;
 		background: url("../assets/site/background.jpg");
 		background-size: 100vw;
@@ -72,6 +72,7 @@
 	{
 		font-size: 110%;
 		letter-spacing: 1px;
+		line-height: 30px;
 	}
 
 	#logo
@@ -110,9 +111,11 @@
 		outline: 0;
 	}
 
-	#social > div
+	#social
 	{
 		display: inline-block;
+		margin-top: 6vh;
+		margin-bottom: 4vh;
 	}
 
 footer
@@ -137,6 +140,7 @@ footer
 	color: #798389;
 	text-align: center;
 	padding-top: 1.3vw;
+	padding-bottom:2vw;
 }
 
 #links > A
@@ -193,16 +197,17 @@ footer
 
 #best
 {
+	text-align: left;
 	font-family: monospace;
-	float: left;
 	font-size: 90%;
-	color:#DADBDB;
+	color:#61797A;
 }
 
 .social_icon
 {
 	transition: 0.5s;
-	width: 48px;
+	width: 2.4vw;
+	min-width: 32px;
 	padding: 4px;
 	color: #FFF;
 	-webkit-filter: brightness(0) invert(1) opacity(30%) grayscale(100%);
