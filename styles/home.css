@@ -21,7 +21,7 @@
 	nav
 	{
 		padding-top: 2.5vw;
-		height: 25vh;
+		height: 16vh;
 	}
 
 	nav > div
@@ -33,7 +33,7 @@
 
 	#nav_items > A
 	{
-		font-size: 140%;
+		font-size: 1vw;
 		color: #FFFFFF;
 		padding: 1vw;
 	}
@@ -42,6 +42,12 @@
 	{
 		transition: 0.1s;
 		border-bottom: solid 4px #00FFF0;
+	}
+
+	#nav_items > A:active
+	{
+		transition: 0.3s;
+		background: rgba(0, 215, 180, 0.5);
 	}
 }
 
@@ -235,4 +241,104 @@ footer
 	-ms-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
 	-o-filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
 	filter: brightness(2) invert(0) saturate(1.5) grayscale(0%);
+}
+
+.gallery
+{
+	padding: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.current_photo
+{
+	width: 50vw;
+	min-width: 450px;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	display: block;
+	box-shadow: 0px 2px 9px #111;
+}
+
+.photo_preview
+{
+	transition: 0.5s;
+	width: 10vw;
+	min-width: 100px;
+	text-align: center;
+	padding: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	filter: brightness(0.2);
+	-ms-filter: brightness(0.2);
+	-webkit-filter: brightness(0.2);
+	box-shadow: 0px 2px 9px #111;
+}
+
+.photo_preview:hover
+{
+	transition: 0.5s;
+	position: 3px;
+	transform: translate3d(0px, 0px, 3px);
+	box-shadow: 0px 0px 9px #111;
+	filter: brightness(150%);
+	-ms-filter: brightness(1.5);
+	-webkit-filter: brightness(1.5);
+	box-shadow: 0px 2px 15px #111;
+}
+
+.gallery_clicked_photo
+{
+	transition: 0.5s;
+	filter: brightness(1.5);
+	-ms-filter: brightness(1.5);
+	-webkit-filter: brightness(1.5);
+}
+
+#features_list
+{
+	margin: auto;
+	padding: auto;
+}
+
+.features_item
+{
+	padding: 3vw;
+	text-align: center;
+}
+
+.features_icon
+{
+	text-align: center;
+	width: 12vw;
+	min-width: 200px;
+	display: inline;
+}
+
+.features_item > h2
+{
+	font-weight: lighter;
+	font-size: 190%;
+	text-transform: uppercase;
+}
+
+#features_description
+{
+	color: #B3B3B3;
+	margin: auto;
+	padding: auto;
+	padding-top: 20px;
+	width: 60vw;
+	line-height: 40px;
+	font-size: 106%;
+}
+
+.news_title
+{
+	font-size: 190%;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }

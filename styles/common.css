@@ -1,12 +1,12 @@
 
 #element::-webkit-scrollbar
 { 
-    display: none; 
+	display: none; 
 }
 
 ::-webkit-scrollbar
 { 
-    display: none; 
+	display: none; 
 }
 
 body
